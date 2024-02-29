@@ -151,7 +151,7 @@ def view_student(student_id):
 
 if __name__ == '__main__':
   # Run the Flask app
-  app.run()
+  app.run(debug=False,host='0.0.0.0')
 
 
 
